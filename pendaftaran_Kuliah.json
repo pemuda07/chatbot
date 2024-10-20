@@ -1,4 +1,3 @@
-#file json
 {"intents": [
              {"tag": "informasi pendaftaran",
               "patterns": ["Informasi pendaftaran", "Dimana saya bisa mengakses informasi pendaftaran?", "Apakah ada informasi pendaftaran mahasiswa?", "Berikan saya informasi pendaftaran", "saya ingin bertanya tentang informasi pendaftaran mahasiswa sarjana dan diploma"],
