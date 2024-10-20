@@ -1,0 +1,24 @@
+#file json
+{"intents": [
+             {"tag": "informasi pendaftaran",
+              "patterns": ["Informasi pendaftaran", "Dimana saya bisa mengakses informasi pendaftaran?", "Apakah ada informasi pendaftaran mahasiswa?", "Berikan saya informasi pendaftaran", "saya ingin bertanya tentang informasi pendaftaran mahasiswa sarjana dan diploma"],
+              "responses": ["Informasi pendaftaran Program Studi Sarjana dan diploma secara lengkap bisa di akses melalui: https://pmb.uii.ac.id/"],
+        "context": [""]
+             },
+             {"tag": "Waktu Pendaftaran",
+              "patterns": ["waktu pendaftaran","Timeline","timeline pendaftaran","kapan mulai bisa daftar?","saya ingin tau tentang informasi pendaftaran gelombang 1 dan gelombang 2","gelombang 1", "info pendaftaran gelombang 2"],
+              "responses": ["Timeline pendaftaran mahasiswa baru adalah sebagai berikut : 1.Gelombang I  : Bulan Desember - Maret, 2.Gelombang II : Bulan April - Juli(ketentuan waktu pendaftaran bisa berubah sewaktu-waktu mengikuti jadwal yang di tetapkan UII"],
+        "context": [""]
+             },
+             {"tag": "Program Seleksi",
+              "patterns": ["Program seleksi apa saja yang ada saat ini?","apa saja program pendaftaran UII?"],
+              "responses": ["pola seleksi terdiri dari : CBT(Computer-Based Test), PBT(paper-Based Test), PSB(Penelusuran Siswa Berprestasi), dan Siber(Seleksi Berbasis Rapor). untuk info selengkapnya dapat mengunjungi website ini : https://pmb.uii.ac.id/ "],
+        "context": [""]
+       },
+       {"tag": "Goodbye",
+              "patterns": ["Oke terimakasih atas infonya", "oke deh makasih", "thanks"],
+              "responses": ["sama-sama","Sama-sama. Semoga dapat membantu."],
+             "context": [""]
+       }     
+]
+}
