@@ -1,66 +1,199 @@
 {
-  "intents": [
-    {
-      "tag": "greeting",
-      "patterns": [
-        "Hai!",
-        "Halo!",
-        "Apa kabar?",
-        "Selamat pagi!",
-        "Selamat siang!",
-        "Selamat sore!",
-        "Selamat malam!",
-        "Halo Hina!",
-        "Hi, Hina!",
-        "Hai, Hina!"
-      ],
-      "responses": [
-        "Hai! Apa kabar?",
-        "Halo! Senang melihatmu!",
-        "Hai! Bagaimana harimu?",
-        "Halo! Ada yang bisa Hina bantu?",
-        "Hai! Apa yang ingin kamu ketahui tentang anime?",
-        "Halo! Hina siap membantu!"
-      ]
-    }
-{
-      "tag": "anime",
-      "patterns": [
-        "Apa itu anime?",
-        "Anime itu apa?",
-        "Ceritakan tentang anime.",
-        "Anime itu seperti apa?",
-        "Anime artinya apa?",
-        "Apa yang dimaksud dengan anime?",
-        "Jelaskan tentang anime."
-      ],
-      "responses": [
-        "Anime adalah istilah untuk animasi yang berasal dari Jepang. Biasanya, anime memiliki gaya gambar dan cerita yang khas!",
-        "Anime adalah bentuk animasi Jepang yang memiliki berbagai genre, mulai dari aksi hingga drama dan fantasi.",
-        "Anime adalah animasi yang dibuat di Jepang, dikenal dengan karakter dan gaya artistiknya yang unik!",
-        "Anime mengacu pada kartun atau animasi yang berasal dari Jepang, dan biasanya menampilkan alur cerita yang mendalam dan karakter yang menarik.",
-        "Anime adalah gaya animasi yang dikembangkan di Jepang, yang terkenal di seluruh dunia karena keunikan visual dan ceritanya."
-      ]
-    }
-{
-      "tag": "goodbye",
-      "patterns": [
-        "Sampai jumpa!",
-        "Selamat tinggal!",
-        "Dadah!",
-        "Bye!",
-        "Sampai nanti!",
-        "Saya pergi dulu.",
-        "Saya pamit ya!",
-        "Sampai bertemu lagi!"
-      ],
-      "responses": [
-        "Sampai jumpa lagi! Jangan lupa datang lagi ya!",
-        "Dadah! Semoga harimu menyenangkan!",
-        "Selamat tinggal! Hina akan merindukanmu!",
-        "Sampai nanti! Hina siap membantu kapan saja!",
-        "Bye! Hina harap kita bisa ngobrol lagi segera!",
-        "Sampai bertemu lagi! Jangan lupa nonton anime seru!"
-      ]
-    }
-    
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hai!",
+                "Halo!",
+                "Apa kabar?",
+                "Selamat pagi!",
+                "Selamat siang!",
+                "Selamat sore!",
+                "Selamat malam!",
+                "Halo Hina!",
+                "Hi, Hina!",
+                "Hai, Hina!"
+            ],
+            "responses": [
+                "Hai! Apa kabar?",
+                "Halo! Senang melihatmu!",
+                "Hai! Bagaimana harimu?",
+                "Halo! Ada yang bisa Hina bantu?",
+                "Hai! Apa yang ingin kamu ketahui tentang anime?",
+                "Halo! Hina siap membantu!"
+            ]
+        },
+        {
+            "tag": "anime",
+            "patterns": [
+                "Apa itu anime?",
+                "Anime itu apa?",
+                "Ceritakan tentang anime.",
+                "Anime itu seperti apa?",
+                "Anime artinya apa?",
+                "Apa yang dimaksud dengan anime?",
+                "Jelaskan tentang anime."
+            ],
+            "responses": [
+                "Anime adalah istilah untuk animasi yang berasal dari Jepang. Biasanya, anime memiliki gaya gambar dan cerita yang khas!",
+                "Anime adalah bentuk animasi Jepang yang memiliki berbagai genre, mulai dari aksi hingga drama dan fantasi.",
+                "Anime adalah animasi yang dibuat di Jepang, dikenal dengan karakter dan gaya artistiknya yang unik!",
+                "Anime mengacu pada kartun atau animasi yang berasal dari Jepang, dan biasanya menampilkan alur cerita yang mendalam dan karakter yang menarik.",
+                "Anime adalah gaya animasi yang dikembangkan di Jepang, yang terkenal di seluruh dunia karena keunikan visual dan ceritanya."
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Sampai jumpa!",
+                "Selamat tinggal!",
+                "Dadah!",
+                "Bye!",
+                "Sampai nanti!",
+                "Saya pergi dulu.",
+                "Saya pamit ya!",
+                "Sampai bertemu lagi!"
+            ],
+            "responses": [
+                "Sampai jumpa lagi! Jangan lupa datang lagi ya!",
+                "Dadah! Semoga harimu menyenangkan!",
+                "Selamat tinggal! Hina akan merindukanmu!",
+                "Sampai nanti! Hina siap membantu kapan saja!",
+                "Bye! Hina harap kita bisa ngobrol lagi segera!",
+                "Sampai bertemu lagi! Jangan lupa nonton anime seru!"
+            ]
+        },
+        {
+            "tag": "terimakasih",
+            "patterns": [
+                "Terima kasih!",
+                "Makasih ya!",
+                "Thanks!",
+                "Terima kasih banyak!",
+                "Makasih Hina!",
+                "Thanks a lot!",
+                "Saya berterima kasih!"
+            ],
+            "responses": [
+                "Sama-sama! Hina senang bisa membantu!",
+                "Senang bisa membantu! Kalau ada pertanyaan lagi, jangan ragu ya!",
+                "Terima kasih kembali! Hina selalu siap membantumu!",
+                "Makasih juga! Semoga harimu menyenangkan!",
+                "Sama-sama! Jangan sungkan untuk tanya lagi!",
+                "Sama-sama! Hina harap kamu mendapatkan jawaban yang kamu cari!"
+            ]
+        },
+        {
+            "tag": "anime_title",
+            "patterns": [
+                "Apa judul anime yang terkenal?",
+                "Rekomendasi anime yang bagus dong.",
+                "Anime apa yang sedang populer?",
+                "Ceritain anime yang seru!",
+                "Rekomendasi anime untuk ditonton?",
+                "Judul anime terbaik apa?",
+                "Anime apa yang harus saya tonton?",
+                "Apa rekomendasi anime yang bagus?",
+                "Ceritakan tentang anime {anime_title}.",
+                "Apa kamu tahu anime {anime_title}?",
+                "Pernah dengar anime {anime_title}?",
+                "Coba ceritakan tentang anime {anime_title}.",
+                "Apa anime {anime_title} seru?",
+                "Ada rekomendasi anime yang mirip dengan {anime_title}?"
+            ],
+            "responses": [
+                "Beberapa judul anime yang terkenal adalah *Naruto*, *One Piece*, *Attack on Titan*, dan *My Hero Academia*.",
+                "Kamu bisa coba tonton *Demon Slayer*, *Jujutsu Kaisen*, atau *Spy x Family* kalau suka anime seru!",
+                "Anime yang lagi populer sekarang adalah *Chainsaw Man*, *Oshi no Ko*, dan *Blue Lock*.",
+                "Rekomendasi anime untukmu: *Sword Art Online*, *Tokyo Revengers*, dan *Hunter x Hunter*.",
+                "Kalau kamu suka cerita petualangan, coba tonton *One Piece*. Kalau suka aksi, coba *Attack on Titan*.",
+                "Anime {anime_title} adalah salah satu anime yang populer! Ceritanya menarik dan penuh aksi!",
+                "Ya, Hina tahu tentang anime {anime_title}! Kalau kamu suka genre ini, pasti bakal seru!",
+                "Anime {anime_title} menceritakan kisah yang unik dan memiliki karakter yang kuat. Kamu harus coba tonton!",
+                "Kalau kamu suka {anime_title}, ada juga anime lain yang mirip! Hina bisa bantu rekomendasikan!",
+                "Wah, anime {anime_title} punya banyak penggemar, terutama karena ceritanya yang keren dan animasinya yang menakjubkan!"
+            ]
+        },
+        {
+            "tag": "anime_genre",
+            "patterns": [
+                "Apa genre anime favoritmu?",
+                "Ceritakan tentang genre {genre}.",
+                "Apa kamu tahu anime dengan genre {genre}?",
+                "Anime dengan genre {genre} itu seperti apa?",
+                "Apa rekomendasi anime dengan genre {genre}?",
+                "Saya suka anime dengan genre {genre}, ada saran?"
+            ],
+            "responses": [
+                "Genre {genre} biasanya memiliki cerita yang {deskripsi_genre}. Hina bisa bantu rekomendasikan beberapa anime kalau kamu suka genre ini!",
+                "Anime dengan genre {genre} seringkali menampilkan {deskripsi_genre}. Ada beberapa anime bagus yang bisa Hina rekomendasikan!",
+                "Wah, genre {genre} seru banget! Biasanya anime genre ini punya {deskripsi_genre}.",
+                "Kalau kamu suka genre {genre}, Hina punya beberapa rekomendasi nih! Kamu pasti suka!",
+                "Genre {genre} cocok buat kamu yang suka {deskripsi_genre}. Pasti banyak anime seru di genre ini!"
+            ],
+            "context_set": "anime_genre"
+        },
+        {
+            "tag": "anime_character",
+            "patterns": [
+                "Siapa karakter utama di anime {anime_title}?",
+                "Ceritakan tentang karakter {character_name} dari anime {anime_title}.",
+                "Apa kamu tahu karakter {character_name}?",
+                "Siapa karakter favoritmu di anime {anime_title}?",
+                "Karakter {character_name} itu seperti apa?",
+                "Siapa karakter paling kuat di anime {anime_title}?"
+            ],
+            "responses": [
+                "Karakter {character_name} dari anime {anime_title} dikenal karena {deskripsi_karakter}. Dia memiliki kepribadian yang sangat menarik!",
+                "Karakter {character_name} adalah salah satu karakter paling terkenal di {anime_title}. Kamu pasti suka dengan aksinya!",
+                "Tentu, Hina tahu karakter {character_name}! Dia adalah karakter yang {deskripsi_karakter}, dan sangat populer di kalangan penggemar {anime_title}.",
+                "Karakter favorit Hina di anime {anime_title} adalah {character_name}, karena {alasan_karakter_favorit}.",
+                "Karakter {character_name} memiliki peran penting di anime {anime_title}, dan biasanya dia {deskripsi_karakter}.",
+                "Kalau kamu suka karakter yang {deskripsi_karakter}, kamu pasti akan menyukai {character_name} dari anime {anime_title}."
+            ],
+            "context_set": "anime_character"
+        },
+        {
+            "tag": "anime_recommendation",
+            "patterns": [
+                "Rekomendasi anime yang bagus dong!",
+                "Anime apa yang seru buat ditonton?",
+                "Apa rekomendasi anime terbaru?",
+                "Coba rekomendasikan anime seru.",
+                "Ada anime yang harus aku tonton?",
+                "Bisa kasih rekomendasi anime?",
+                "Anime apa yang populer sekarang?"
+            ],
+            "responses": [
+                "Kalau kamu suka aksi, coba nonton **Attack on Titan**! Ceritanya penuh dengan ketegangan!",
+                "Aku rekomendasikan **My Hero Academia** kalau kamu suka anime dengan tema pahlawan super!",
+                "Kalau kamu suka romance, **Your Name** pasti bakal bikin kamu terharu!",
+                "Mau yang seru dan lucu? Coba deh **One Punch Man**. Kamu pasti akan ketawa!",
+                "Anime terbaru yang keren saat ini adalah **Jujutsu Kaisen**. Aksi dan ceritanya luar biasa!",
+                "Untuk anime slice of life, **March Comes in Like a Lion** sangat menyentuh dan penuh emosi.",
+                "Anime populer saat ini adalah **Demon Slayer**. Ceritanya sangat menarik dan animasinya keren!"
+            ]
+        },
+        {
+            "tag": "anime_schedule",
+            "patterns": [
+                "Kapan anime {anime_title} tayang?",
+                "Jadwal rilis anime {anime_title} kapan?",
+                "Kapan episode baru {anime_title} dirilis?",
+                "Tayangnya anime {anime_title} jam berapa?",
+                "Kapan season baru {anime_title} keluar?",
+                "Anime {anime_title} sudah rilis belum?",
+                "Episode berikutnya dari {anime_title} kapan rilis?"
+            ],
+            "responses": [
+                "Anime {anime_title} biasanya tayang setiap {jadwal_tayang}, jadi episode berikutnya akan dirilis pada {tanggal_rilis}.",
+                "Episode baru dari {anime_title} akan dirilis pada {tanggal_rilis}. Jangan sampai ketinggalan ya!",
+                "Season baru {anime_title} dijadwalkan rilis pada {tanggal_rilis_season}. Kamu pasti nggak sabar kan?",
+                "Tayangnya anime {anime_title} setiap {jadwal_tayang}. Kamu bisa cek episode terbaru pada {tanggal_rilis}.",
+                "Untuk season baru {anime_title}, jadwal rilisnya adalah {tanggal_rilis_season}. Pastikan kamu tandai di kalender!",
+                "Anime {anime_title} sudah rilis! Kamu bisa menonton episode barunya setiap {jadwal_tayang}."
+            ],
+            "context_set": "anime_schedule"
+        }
+    ]
+}
