@@ -42,3 +42,25 @@
         "Anime adalah gaya animasi yang dikembangkan di Jepang, yang terkenal di seluruh dunia karena keunikan visual dan ceritanya."
       ]
     }
+{
+      "tag": "goodbye",
+      "patterns": [
+        "Sampai jumpa!",
+        "Selamat tinggal!",
+        "Dadah!",
+        "Bye!",
+        "Sampai nanti!",
+        "Saya pergi dulu.",
+        "Saya pamit ya!",
+        "Sampai bertemu lagi!"
+      ],
+      "responses": [
+        "Sampai jumpa lagi! Jangan lupa datang lagi ya!",
+        "Dadah! Semoga harimu menyenangkan!",
+        "Selamat tinggal! Hina akan merindukanmu!",
+        "Sampai nanti! Hina siap membantu kapan saja!",
+        "Bye! Hina harap kita bisa ngobrol lagi segera!",
+        "Sampai bertemu lagi! Jangan lupa nonton anime seru!"
+      ]
+    }
+    
