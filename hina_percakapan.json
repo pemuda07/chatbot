@@ -122,25 +122,6 @@
             "context_set": "anime_character"
         },
         {
-            "tag": "anime_recommendation",
-            "patterns": [
-                "Rekomendasi anime yang bagus dong!",
-                "Anime apa yang seru buat ditonton?",
-                "Apa rekomendasi anime terbaru?",
-                "Coba rekomendasikan anime seru.",
-                "Ada anime yang harus aku tonton?",
-                "Bisa kasih rekomendasi anime?",
-                "Anime apa yang populer sekarang?"
-            ],
-            "responses": [
-                "Kalau kamu suka aksi, coba nonton **Attack on Titan**! Ceritanya penuh dengan ketegangan!",
-                "Aku rekomendasikan **My Hero Academia** kalau kamu suka anime dengan tema pahlawan super!",
-                "Kalau kamu suka romance, **Your Name** pasti bakal bikin kamu terharu!",
-                "Mau yang seru dan lucu? Coba deh **One Punch Man**. Kamu pasti akan ketawa!",
-                "Anime terbaru yang keren saat ini adalah **Jujutsu Kaisen**. Aksi dan ceritanya luar biasa!",
-                "Untuk anime slice of life, **March Comes in Like a Lion** sangat menyentuh dan penuh emosi.",
-                "Anime populer saat ini adalah **Demon Slayer**. Ceritanya sangat menarik dan animasinya keren!"
-            ]
         },
         {
             "tag": "anime_schedule",
