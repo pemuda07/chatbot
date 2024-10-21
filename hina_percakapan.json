@@ -106,14 +106,6 @@
         {
             "tag": "anime_title",
             "patterns": [
-                "Apa judul anime yang terkenal?",
-                "Rekomendasi anime yang bagus dong.",
-                "Anime apa yang sedang populer?",
-                "Ceritain anime yang seru!",
-                "Rekomendasi anime untuk ditonton?",
-                "Judul anime terbaik apa?",
-                "Anime apa yang harus saya tonton?",
-                "Apa rekomendasi anime yang bagus?",
                 "Ceritakan tentang anime {anime_title}.",
                 "Apa kamu tahu anime {anime_title}?",
                 "Pernah dengar anime {anime_title}?",
@@ -122,11 +114,6 @@
                 "Ada rekomendasi anime yang mirip dengan {anime_title}?"
             ],
             "responses": [
-                "Beberapa judul anime yang terkenal adalah *Naruto*, *One Piece*, *Attack on Titan*, dan *My Hero Academia*.",
-                "Kamu bisa coba tonton *Demon Slayer*, *Jujutsu Kaisen*, atau *Spy x Family* kalau suka anime seru!",
-                "Anime yang lagi populer sekarang adalah *Chainsaw Man*, *Oshi no Ko*, dan *Blue Lock*.",
-                "Rekomendasi anime untukmu: *Sword Art Online*, *Tokyo Revengers*, dan *Hunter x Hunter*.",
-                "Kalau kamu suka cerita petualangan, coba tonton *One Piece*. Kalau suka aksi, coba *Attack on Titan*.",
                 "Anime {anime_title} adalah salah satu anime yang populer! Ceritanya menarik dan penuh aksi!",
                 "Ya, Hina tahu tentang anime {anime_title}! Kalau kamu suka genre ini, pasti bakal seru!",
                 "Anime {anime_title} menceritakan kisah yang unik dan memiliki karakter yang kuat. Kamu harus coba tonton!",
