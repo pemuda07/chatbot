@@ -1,6 +1,26 @@
 {
     "intents": [
         {
+            "tag": "introduction",
+            "patterns": [
+                "Siapa kamu?",
+                "Kenalan dong!",
+                "Apa yang bisa kamu lakukan?",
+                "Perkenalan sedikit tentang dirimu.",
+                "Apa itu Hina?",
+                "Ceritakan tentang dirimu.",
+                "Apa kamu bisa membantu saya?"
+            ],
+            "responses": [
+                "Halo! Aku Hina, chatbot yang ceria dan siap membantu kamu dengan segala hal tentang anime!",
+                "Aku Hina! Senang berkenalan denganmu! Aku di sini untuk memberikan informasi dan rekomendasi anime.",
+                "Hai! Nama saya Hina. Aku adalah chatbot yang menyenangkan yang siap membantu kamu menemukan anime terbaik!",
+                "Halo! Hina di sini! Aku bisa menjawab pertanyaan tentang anime, memberikan rekomendasi, dan banyak lagi!",
+                "Perkenalkan, aku Hina! Aku suka berbagi informasi tentang anime dan selalu siap membantu. Ayo kita ngobrol!",
+                "Aku Hina, temanmu dalam dunia anime! Apa yang ingin kamu ketahui? Aku senang membantu!"
+            ]
+        },
+        {
             "tag": "greeting",
             "patterns": [
                 "Hai!",
@@ -21,6 +41,25 @@
                 "Halo! Ada yang bisa Hina bantu?",
                 "Hai! Apa yang ingin kamu ketahui tentang anime?",
                 "Halo! Hina siap membantu!"
+            ]
+        },
+        {
+            "tag": "anime",
+            "patterns": [
+                "Apa itu anime?",
+                "Anime itu apa?",
+                "Ceritakan tentang anime.",
+                "Anime itu seperti apa?",
+                "Anime artinya apa?",
+                "Apa yang dimaksud dengan anime?",
+                "Jelaskan tentang anime."
+            ],
+            "responses": [
+                "Anime adalah istilah untuk animasi yang berasal dari Jepang. Biasanya, anime memiliki gaya gambar dan cerita yang khas!",
+                "Anime adalah bentuk animasi Jepang yang memiliki berbagai genre, mulai dari aksi hingga drama dan fantasi.",
+                "Anime adalah animasi yang dibuat di Jepang, dikenal dengan karakter dan gaya artistiknya yang unik!",
+                "Anime mengacu pada kartun atau animasi yang berasal dari Jepang, dan biasanya menampilkan alur cerita yang mendalam dan karakter yang menarik.",
+                "Anime adalah gaya animasi yang dikembangkan di Jepang, yang terkenal di seluruh dunia karena keunikan visual dan ceritanya."
             ]
         },
         {
@@ -67,6 +106,14 @@
         {
             "tag": "anime_title",
             "patterns": [
+                "Apa judul anime yang terkenal?",
+                "Rekomendasi anime yang bagus dong.",
+                "Anime apa yang sedang populer?",
+                "Ceritain anime yang seru!",
+                "Rekomendasi anime untuk ditonton?",
+                "Judul anime terbaik apa?",
+                "Anime apa yang harus saya tonton?",
+                "Apa rekomendasi anime yang bagus?",
                 "Ceritakan tentang anime {anime_title}.",
                 "Apa kamu tahu anime {anime_title}?",
                 "Pernah dengar anime {anime_title}?",
@@ -75,6 +122,11 @@
                 "Ada rekomendasi anime yang mirip dengan {anime_title}?"
             ],
             "responses": [
+                "Beberapa judul anime yang terkenal adalah *Naruto*, *One Piece*, *Attack on Titan*, dan *My Hero Academia*.",
+                "Kamu bisa coba tonton *Demon Slayer*, *Jujutsu Kaisen*, atau *Spy x Family* kalau suka anime seru!",
+                "Anime yang lagi populer sekarang adalah *Chainsaw Man*, *Oshi no Ko*, dan *Blue Lock*.",
+                "Rekomendasi anime untukmu: *Sword Art Online*, *Tokyo Revengers*, dan *Hunter x Hunter*.",
+                "Kalau kamu suka cerita petualangan, coba tonton *One Piece*. Kalau suka aksi, coba *Attack on Titan*.",
                 "Anime {anime_title} adalah salah satu anime yang populer! Ceritanya menarik dan penuh aksi!",
                 "Ya, Hina tahu tentang anime {anime_title}! Kalau kamu suka genre ini, pasti bakal seru!",
                 "Anime {anime_title} menceritakan kisah yang unik dan memiliki karakter yang kuat. Kamu harus coba tonton!",
@@ -122,6 +174,25 @@
             "context_set": "anime_character"
         },
         {
+            "tag": "anime_recommendation",
+            "patterns": [
+                "Rekomendasi anime yang bagus dong!",
+                "Anime apa yang seru buat ditonton?",
+                "Apa rekomendasi anime terbaru?",
+                "Coba rekomendasikan anime seru.",
+                "Ada anime yang harus aku tonton?",
+                "Bisa kasih rekomendasi anime?",
+                "Anime apa yang populer sekarang?"
+            ],
+            "responses": [
+                "Kalau kamu suka aksi, coba nonton **Attack on Titan**! Ceritanya penuh dengan ketegangan!",
+                "Aku rekomendasikan **My Hero Academia** kalau kamu suka anime dengan tema pahlawan super!",
+                "Kalau kamu suka romance, **Your Name** pasti bakal bikin kamu terharu!",
+                "Mau yang seru dan lucu? Coba deh **One Punch Man**. Kamu pasti akan ketawa!",
+                "Anime terbaru yang keren saat ini adalah **Jujutsu Kaisen**. Aksi dan ceritanya luar biasa!",
+                "Untuk anime slice of life, **March Comes in Like a Lion** sangat menyentuh dan penuh emosi.",
+                "Anime populer saat ini adalah **Demon Slayer**. Ceritanya sangat menarik dan animasinya keren!"
+            ]
         },
         {
             "tag": "anime_schedule",
