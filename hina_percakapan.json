@@ -1,7 +1,6 @@
 {
     "intents": [
         {
-        {
             "tag": "goodbye",
             "patterns": [
                 "Sampai jumpa!",
