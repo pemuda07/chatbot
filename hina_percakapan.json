@@ -1,26 +1,6 @@
 {
     "intents": [
         {
-            "tag": "introduction",
-            "patterns": [
-                "Siapa kamu?",
-                "Kenalan dong!",
-                "Apa yang bisa kamu lakukan?",
-                "Perkenalan sedikit tentang dirimu.",
-                "Apa itu Hina?",
-                "Ceritakan tentang dirimu.",
-                "Apa kamu bisa membantu saya?"
-            ],
-            "responses": [
-                "Halo! Aku Hina, chatbot yang ceria dan siap membantu kamu dengan segala hal tentang anime!",
-                "Aku Hina! Senang berkenalan denganmu! Aku di sini untuk memberikan informasi dan rekomendasi anime.",
-                "Hai! Nama saya Hina. Aku adalah chatbot yang menyenangkan yang siap membantu kamu menemukan anime terbaik!",
-                "Halo! Hina di sini! Aku bisa menjawab pertanyaan tentang anime, memberikan rekomendasi, dan banyak lagi!",
-                "Perkenalkan, aku Hina! Aku suka berbagi informasi tentang anime dan selalu siap membantu. Ayo kita ngobrol!",
-                "Aku Hina, temanmu dalam dunia anime! Apa yang ingin kamu ketahui? Aku senang membantu!"
-            ]
-        },
-        {
             "tag": "greeting",
             "patterns": [
                 "Hai!",
@@ -41,25 +21,6 @@
                 "Halo! Ada yang bisa Hina bantu?",
                 "Hai! Apa yang ingin kamu ketahui tentang anime?",
                 "Halo! Hina siap membantu!"
-            ]
-        },
-        {
-            "tag": "anime",
-            "patterns": [
-                "Apa itu anime?",
-                "Anime itu apa?",
-                "Ceritakan tentang anime.",
-                "Anime itu seperti apa?",
-                "Anime artinya apa?",
-                "Apa yang dimaksud dengan anime?",
-                "Jelaskan tentang anime."
-            ],
-            "responses": [
-                "Anime adalah istilah untuk animasi yang berasal dari Jepang. Biasanya, anime memiliki gaya gambar dan cerita yang khas!",
-                "Anime adalah bentuk animasi Jepang yang memiliki berbagai genre, mulai dari aksi hingga drama dan fantasi.",
-                "Anime adalah animasi yang dibuat di Jepang, dikenal dengan karakter dan gaya artistiknya yang unik!",
-                "Anime mengacu pada kartun atau animasi yang berasal dari Jepang, dan biasanya menampilkan alur cerita yang mendalam dan karakter yang menarik.",
-                "Anime adalah gaya animasi yang dikembangkan di Jepang, yang terkenal di seluruh dunia karena keunikan visual dan ceritanya."
             ]
         },
         {
