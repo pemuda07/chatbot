@@ -44,25 +44,6 @@
             ]
         },
         {
-            "tag": "anime",
-            "patterns": [
-                "Apa itu anime?",
-                "Anime itu apa?",
-                "Ceritakan tentang anime.",
-                "Anime itu seperti apa?",
-                "Anime artinya apa?",
-                "Apa yang dimaksud dengan anime?",
-                "Jelaskan tentang anime."
-            ],
-            "responses": [
-                "Anime adalah istilah untuk animasi yang berasal dari Jepang. Biasanya, anime memiliki gaya gambar dan cerita yang khas!",
-                "Anime adalah bentuk animasi Jepang yang memiliki berbagai genre, mulai dari aksi hingga drama dan fantasi.",
-                "Anime adalah animasi yang dibuat di Jepang, dikenal dengan karakter dan gaya artistiknya yang unik!",
-                "Anime mengacu pada kartun atau animasi yang berasal dari Jepang, dan biasanya menampilkan alur cerita yang mendalam dan karakter yang menarik.",
-                "Anime adalah gaya animasi yang dikembangkan di Jepang, yang terkenal di seluruh dunia karena keunikan visual dan ceritanya."
-            ]
-        },
-        {
             "tag": "goodbye",
             "patterns": [
                 "Sampai jumpa!",
