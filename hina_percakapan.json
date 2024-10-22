@@ -180,6 +180,18 @@
                 "Episode terbaru dari anime {anime_title} akan dirilis hari {hari_tayang}, jadi jangan sampai terlewat!"
             ],
             "context_filter": "anime_title"
+        },
+        {
+            "tag": "anime_episode",
+            "patterns": [
+                "berapa episode",
+                "jumlah episode",
+                "berapa banyak episode"
+            ],
+            "responses": [
+                "Anime ini memiliki {episodes} episode."
+            ],
+            "context_filter": "anime_title"
         }
     ]
 }
