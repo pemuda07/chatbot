@@ -137,19 +137,14 @@
         {
             "tag": "anime_genre",
             "patterns": [
-                "Apa genre anime favoritmu?",
-                "Ceritakan tentang genre {genre}.",
-                "Apa kamu tahu anime dengan genre {genre}?",
-                "Anime dengan genre {genre} itu seperti apa?",
-                "Apa rekomendasi anime dengan genre {genre}?",
-                "Saya suka anime dengan genre {genre}, ada saran?"
+                "beritahu saya anime bergenre {genre}",
+                "anime apa saja yang ada dalam genre {genre}",
+                "saya mau lihat anime genre {genre}",
+                "tampilkan anime dengan genre {genre}"
             ],
             "responses": [
-                "Genre {genre} biasanya memiliki cerita yang {deskripsi_genre}. Hina bisa bantu rekomendasikan beberapa anime kalau kamu suka genre ini!",
-                "Anime dengan genre {genre} seringkali menampilkan {deskripsi_genre}. Ada beberapa anime bagus yang bisa Hina rekomendasikan!",
-                "Wah, genre {genre} seru banget! Biasanya anime genre ini punya {deskripsi_genre}.",
-                "Kalau kamu suka genre {genre}, Hina punya beberapa rekomendasi nih! Kamu pasti suka!",
-                "Genre {genre} cocok buat kamu yang suka {deskripsi_genre}. Pasti banyak anime seru di genre ini!"
+                "Sedang mencari anime dengan genre {genre}...",
+                "Berikut adalah anime dalam genre {genre}..."
             ],
             "context_set": "anime_genre"
         },
