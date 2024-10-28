@@ -12,10 +12,8 @@
                 "Apa kamu bisa membantu saya?"
             ],
             "responses": [
-                "Halo! Aku Hina, chatbot yang ceria dan siap membantu kamu dengan segala hal tentang anime!",
+                
                 "Aku Hina! Senang berkenalan denganmu! Aku di sini untuk memberikan informasi dan rekomendasi anime.",
-                "Hai! Nama saya Hina. Aku adalah chatbot yang menyenangkan yang siap membantu kamu menemukan anime terbaik!",
-                "Halo! Hina di sini! Aku bisa menjawab pertanyaan tentang anime, memberikan rekomendasi, dan banyak lagi!",
                 "Perkenalkan, aku Hina! Aku suka berbagi informasi tentang anime dan selalu siap membantu. Ayo kita ngobrol!",
                 "Aku Hina, temanmu dalam dunia anime! Apa yang ingin kamu ketahui? Aku senang membantu!"
             ]
@@ -26,21 +24,14 @@
                 "Hai!",
                 "Halo!",
                 "Apa kabar?",
-                "Selamat pagi!",
-                "Selamat siang!",
-                "Selamat sore!",
-                "Selamat malam!",
                 "Halo Hina!",
                 "Hi, Hina!",
                 "Hai, Hina!"
             ],
             "responses": [
-                "Hai! Apa kabar?",
-                "Halo! Senang melihatmu!",
-                "Hai! Bagaimana harimu?",
-                "Halo! Ada yang bisa Hina bantu?",
-                "Hai! Apa yang ingin kamu ketahui tentang anime?",
-                "Halo! Hina siap membantu!"
+                "Halo! Aku Hina, chatbot yang ceria dan siap membantu kamu dengan segala hal tentang anime!",
+                "Hai! Nama saya Hina. Aku adalah chatbot yang menyenangkan yang siap membantu kamu menemukan anime terbaik!",
+                "Halo! Hina di sini! Aku bisa menjawab pertanyaan tentang anime, memberikan rekomendasi, dan banyak lagi!"
             ]
         },
         {
