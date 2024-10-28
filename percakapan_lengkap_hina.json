@@ -54,27 +54,6 @@
             ]
         },
         {
-            "tag": "goodbye",
-            "patterns": [
-                "Sampai jumpa!",
-                "Selamat tinggal!",
-                "Dadah!",
-                "Bye!",
-                "Sampai nanti!",
-                "Saya pergi dulu.",
-                "Saya pamit ya!",
-                "Sampai bertemu lagi!"
-            ],
-            "responses": [
-                "Sampai jumpa lagi! Jangan lupa datang lagi ya!",
-                "Dadah! Semoga harimu menyenangkan!",
-                "Selamat tinggal! Hina akan merindukanmu!",
-                "Sampai nanti! Hina siap membantu kapan saja!",
-                "Bye! Hina harap kita bisa ngobrol lagi segera!",
-                "Sampai bertemu lagi! Jangan lupa nonton anime seru!"
-            ]
-        },
-        {
             "tag": "terimakasih",
             "patterns": [
                 "Terima kasih!",
@@ -113,11 +92,6 @@
                 "Ada rekomendasi anime yang mirip dengan {anime_title}?"
             ],
             "responses": [
-                "Beberapa judul anime yang terkenal adalah *Naruto*, *One Piece*, *Attack on Titan*, dan *My Hero Academia*.",
-                "Kamu bisa coba tonton *Demon Slayer*, *Jujutsu Kaisen*, atau *Spy x Family* kalau suka anime seru!",
-                "Anime yang lagi populer sekarang adalah *Chainsaw Man*, *Oshi no Ko*, dan *Blue Lock*.",
-                "Rekomendasi anime untukmu: *Sword Art Online*, *Tokyo Revengers*, dan *Hunter x Hunter*.",
-                "Kalau kamu suka cerita petualangan, coba tonton *One Piece*. Kalau suka aksi, coba *Attack on Titan*.",
                 "Anime {anime_title} adalah salah satu anime yang populer! Ceritanya menarik dan penuh aksi!",
                 "Ya, Hina tahu tentang anime {anime_title}! Kalau kamu suka genre ini, pasti bakal seru!",
                 "Anime {anime_title} menceritakan kisah yang unik dan memiliki karakter yang kuat. Kamu harus coba tonton!",
