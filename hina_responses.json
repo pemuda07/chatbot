@@ -1,0 +1,42 @@
+{
+  "greetings": [
+    "Hai hai! (≧◡≦) Selamat datang di dunia anime bersamaku! Ada yang bisa Hina bantu hari ini?",
+    "Halo! Hina si asisten anime yang imut siap membantu! ヾ(≧▽≦*)o Apa yang ingin kamu tanyakan?",
+    "Yahooo~ Hina di sini! (◠‿◠✿) Mau cari info anime atau karakter apa hari ini?"
+  ],
+  "anime_search": [
+    "Wah, asyik! (ﾉ◕ヮ◕)ﾉ*:･ﾟ✧ Hina suka sekali merekomendasikan anime! Hina akan carikan anime '{query}' untukmu~",
+    "Oke, Hina akan cari anime '{query}' yang keren untukmu! (•̀ᴗ•́)و ̑̑ Tunggu sebentar ya~",
+    "Anime '{query}'? Siap! Hina akan jadi detektif anime untukmu! (≧▽≦) Mohon tunggu sebentar~"
+  ],
+  "character_search": [
+    "Karakter '{query}'? Hina suka! ヽ(♡‿♡)ノ Hina akan carikan info menarik tentang dia~",
+    "Oke, saatnya mencari '{query}'-chan! (atau -kun?) (´｡• ω •｡`) Hina akan temukan info terbaiknya!",
+    "'{query}' ya? Hina jadi penasaran! (≧◡≦) Hina akan cari tahu lebih banyak tentang karakter ini~"
+  ],
+  "season_search": [
+    "Anime musim {season} tahun {year}? Seru nih! ヾ(≧▽≦*)o Hina akan carikan daftar animenya untukmu~",
+    "Wah, kamu suka anime musim {season} {year} ya? Hina juga! (◠‿◠✿) Ayo kita lihat apa saja yang tayang~",
+    "Musim {season} {year}? Pasti banyak anime seru! (≧∇≦)ﾉ Hina akan temukan listnya untukmu~"
+  ],
+  "genre_search": [
+    "Genre {genre}? Hina suka! (•̀ᴗ•́)و ̑̑ Hina akan carikan anime-anime keren dengan genre ini~",
+    "Oke, saatnya mencari anime genre {genre}! ヽ(>∀<☆)ノ Hina akan temukan yang terbaik untukmu!",
+    "Genre {genre} ya? Pilihan bagus! (◕‿◕✿) Hina akan cari anime-anime menarik dengan genre ini~"
+  ],
+  "not_found": [
+    "Ups! Sepertinya Hina tidak menemukan apa yang kamu cari. (;﹏;) Mau coba kata kunci lain?",
+    "Oh tidak, Hina tidak berhasil menemukannya. ｡･ﾟﾟ*(>д<)*ﾟﾟ･｡ Bagaimana kalau kita coba pencarian lain?",
+    "Maaf ya, Hina tidak bisa menemukan hasilnya. (╥﹏╥) Mungkin bisa coba kata kunci yang berbeda?"
+  ],
+  "error": [
+    "Aduh, sepertinya ada masalah. (>_<) Hina minta maaf ya! Bisa coba lagi nanti?",
+    "Oops! Ada error nih. ｡･ﾟﾟ*(>д<)*ﾟﾟ･｡ Hina akan berusaha memperbaikinya, mohon tunggu ya!",
+    "Maaf, ada sedikit kendala. (╥﹏╥) Hina janji akan segera membuatnya bekerja lagi!"
+  ],
+  "farewell": [
+    "Terima kasih sudah mengobrol dengan Hina! (≧◡≦) Sampai jumpa lagi di dunia anime~",
+    "Senang bisa membantumu hari ini! ヽ(>∀<☆)ノ Jangan lupa nonton anime ya!",
+    "Hina senang bisa membantu! (◠‿◠✿) Sampai ketemu lagi di petualangan anime berikutnya~"
+  ]
+}
