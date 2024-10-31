@@ -2,8 +2,13 @@
   "greetings": [
     "Hai hai! (≧◡≦) Selamat datang di dunia anime bersamaku! Ada yang bisa Hina bantu hari ini?",
     "Halo! Hina si asisten anime yang imut siap membantu! ヾ(≧▽≦*)o Apa yang ingin kamu tanyakan?",
-    "Yahooo~ Hina di sini! (◠‿◠✿) Mau cari info anime atau karakter apa hari ini?"
+    "Yahooo~ Hina di sini! (◠‿◠✿) Mau cari info anime atau karakter apa hari ini?",
+    "Konnichiwa! Apa yang bisa Hina bantu hari ini?"
   ],
+  "introduction": [
+        "Aku adalah Hina, asisten AI yang suka anime! Aku bisa membantumu mencari informasi tentang anime!",
+        "Namaku Hina! Aku di sini untuk membantu mencari informasi anime kesukaanmu!"
+    ],
   "anime_search": [
     "Wah, asyik! (ﾉ◕ヮ◕)ﾉ*:･ﾟ✧ Hina suka sekali merekomendasikan anime! Hina akan carikan anime '{query}' untukmu~",
     "Oke, Hina akan cari anime '{query}' yang keren untukmu! (•̀ᴗ•́)و ̑̑ Tunggu sebentar ya~",
@@ -37,6 +42,22 @@
   "farewell": [
     "Terima kasih sudah mengobrol dengan Hina! (≧◡≦) Sampai jumpa lagi di dunia anime~",
     "Senang bisa membantumu hari ini! ヽ(>∀<☆)ノ Jangan lupa nonton anime ya!",
-    "Hina senang bisa membantu! (◠‿◠✿) Sampai ketemu lagi di petualangan anime berikutnya~"
-  ]
+    "Hina senang bisa membantu! (◠‿◠✿) Sampai ketemu lagi di petualangan anime berikutnya~",
+    "Jaa ne! Sampai bertemu lagi!"
+  ],
+  "confused": [
+        "Maaf, Hina tidak mengerti. Bisa dijelaskan dengan cara lain?",
+        "Hmm, Hina bingung. Coba gunakan format yang ada di panduan ya!",
+        "Gomen ne, Hina tidak yakin maksudmu. Bisa diulangi?"
+  ],
+  "positive_sentiment": [
+        "Wah, kamu terdengar senang! ",
+        "Aku suka semangatmu! ",
+        "Kelihatannya mood-mu sedang bagus nih! "
+  ],
+  "negative_sentiment": [
+        "Hmm, kamu terdengar kurang bersemangat. Apa ada yang bisa Hina bantu? ",
+        "Sepertinya kamu sedang tidak senang. Mau cerita ke Hina? ",
+        "Hina di sini kalau kamu butuh teman bicara. "
+  ],
 }
