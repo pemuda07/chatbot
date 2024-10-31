@@ -1,0 +1,14 @@
+Fitur-fitur machine learning yang ditambahkan meliputi:
+
+Intent Classification:
+Menggunakan CountVectorizer dan MultinomialNB untuk mengklasifikasikan maksud pesan pengguna
+Dapat mengenali berbagai jenis permintaan (pencarian anime, karakter, musim, dll.)
+Sentiment Analysis:
+Menggunakan TextBlob untuk menganalisis sentimen pesan
+Memberikan respons yang sesuai dengan sentimen pengguna
+Natural Language Understanding:
+Dapat memahami pertanyaan dalam berbagai format
+Menangani variasi bahasa (Indonesia/Inggris) untuk beberapa perintah
+Response Generation:
+Menggunakan template responses yang disimpan dalam JSON
+Memilih respons secara acak untuk variasi
